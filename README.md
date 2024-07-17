@@ -1,6 +1,8 @@
-# Full_MERN_Stack_Ecommerce_Project
-1. MERN Stack
+## Cort_Corner--An E-Commerce website
+
+# 1 MERN Stack
 For the ecommerce website, we have adopted the MERN stack, which comprises MongoDB, Express.js, React.js, and Node.js. This technology stack allows us to build a dynamic and user-friendly web application that leverages the power of both front-end and back-end technologies. Let's dive into the details of each component:
+
 1	Technology Stack:
 - MongoDB: We use MongoDB, a NoSQL database, to store product information, user data, and order details. Its flexible schema and scalability make it ideal for handling various types of data.
 
@@ -8,12 +10,14 @@ For the ecommerce website, we have adopted the MERN stack, which comprises Mongo
 
 - React.js: For the front-end development, React.js is our library of choice. It enables us to create reusable UI components and efficiently manage the view layer of the application. React's virtual DOM helps in rendering updates efficiently, leading to a smooth user experience.
 
-- Node.js: Node.js serves as the server-side runtime environment, running JavaScript code outside the browser. It enables us to handle server logic, execute scripts, and interact with databases on the server-side.Safety Requirements
-<Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.>
+- Node.js: Node.js serves as the server-side runtime environment, running JavaScript code outside the browser. It enables us to handle server logic, execute scripts, and interact with databases on the server-side.
+
 2	Back-end Development (Node.js and Express.js):
  We set up a Node.js server using Express.js to handle incoming HTTP requests and responses. Express.js acts as the middleware to handle requests before routing them to the appropriate API endpoints. We implement RESTful APIs for user authentication, product management, shopping cart, and order processing. These APIs allow seamless communication between the front-end and back-end, enabling a responsive user experience.
+ 
 3	Front-end Development (React.js):
-Using Create React App or similar tools, we create a well-structured React.js project. This ensures a scalable and maintainable front-end codebase. We design and develop a user-friendly and responsive user interface for the ecommerce website. By creating reusable React components, we improve code reusability and modularity. React Router helps us manage client-side routing and navigation within the application..>
+Using Create React App or similar tools, we create a well-structured React.js project. This ensures a scalable and maintainable front-end codebase. We design and develop a user-friendly and responsive user interface for the ecommerce website. By creating reusable React components, we improve code reusability and modularity. React Router helps us manage client-side routing and navigation within the application.
+
 4	User Authentication (Passport.js or JWT):
 For user authentication, we integrate either Passport.js for session-based authentication or JSON Web Tokens (JWT) for stateless authentication. User registration and login forms are implemented with validation and error handling. We use authentication middleware to protect routes that require user authentication, ensuring secure access to certain parts of the website.
 
@@ -32,7 +36,8 @@ To manage application-level data efficiently, we implement state management usin
 9	Front-end Testing (Jest and React Testing Library):
 We write comprehensive unit tests and integration tests for React components using Jest and React Testing Library. This testing approach ensures code reliability and maintainability, covering user interactions, API calls, and state changes to validate various scenarios.
 
-2.	Functional and Non-Functional Requirements
+# 2.	Functional and Non-Functional Requirements
+
 2.1	Functional Requirements:
 1. User Registration and Authentication:
    - Users should be able to register on the website with a unique username and password.
@@ -73,6 +78,7 @@ We write comprehensive unit tests and integration tests for React components usi
 10. Order Confirmation and Email Notifications:
     - Users should receive an order confirmation email after completing a purchase.
     - Email notifications should be sent for order updates, such as shipping and delivery status..
+   
 2.2	Non-Functional Requirements
 1. Performance:
    - The website should load quickly, with minimal page load times, to enhance user experience.
@@ -89,7 +95,6 @@ We write comprehensive unit tests and integration tests for React components usi
 4. Accessibility:
    - The website should be accessible to users with disabilities, following WCAG (Web Content Accessibility Guidelines) standards.
    - It should support screen readers, keyboard navigation, and other accessibility features.
-
 
 5. Reliability and Availability:
    - The website should have high uptime and be available to users at all times, with minimal downtime for maintenance.
